@@ -13,26 +13,47 @@ touch roles/docker/meta/main.yml
 # You can also run a list of commands one by one:
 
 cd /path/to/your/ansible/project
+
 mkdir roles
+
 cd roles
+
 mkdir docker
+
 cd docker
+
 mkdir tasks
+
 mkdir handlers
+
 mkdir defaults
+
 mkdir files
+
 mkdir templates
+
 mkdir meta
+
 cd tasks
+
 touch main.yml
+
 cd ..
+
 cd handlers
+
 touch main.yml
+
 cd ..
+
 cd defaults
+
 touch main.yml
+
 cd ..
+
 cd meta
+
 touch main.yml
 
 
